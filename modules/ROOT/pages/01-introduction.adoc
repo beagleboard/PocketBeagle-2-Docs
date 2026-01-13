@@ -79,10 +79,3 @@ image::components/back.jpg[PocketBeagle 2 board back components location,1240,al
 |P1 & P2 cape header |Expansion headers for PocketBeagle capes.
 |UART debug ports |3pin JST-SH 1.00mm UART debug port (RPI debug probe compatible)
 |===
-
-== Revision Note
-
-PB2 revisions are as follows:
-
-* A1(Current/In-production) w/ AM6254 SOC.
-* A0(Out-of-production) w/ AM6232 SOC.
