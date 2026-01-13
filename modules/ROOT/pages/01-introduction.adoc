@@ -2,7 +2,7 @@
 
 Introduction to PocketBeagle 2 board with information on each component location on both front and back of the board.
 
-PocketBeagle 2 is based on https://www.ti.com/product/AM625[Texas Instruments AM6254 SoC]. Its quad A53 cores provide higher performance than the classic PocketBeagle. The new design comes with pre-soldered headers, 3-pin JST-SH 1.00mm UART debug port, USB-C port, MSPM0L1105, 512MB RAM, and LiPo Battery charger.
+PocketBeagle 2 is based on https://www.ti.com/product/AM623[Texas Instruments AM6232 SoC]. Its dual A53 cores provide higher performance than the classic PocketBeagle. The new design comes with pre-soldered headers, 3-pin JST-SH 1.00mm UART debug port, USB-C port, MSPM0L1105, 512MB RAM, and LiPo Battery charger.
 
 == Comparison
 
@@ -12,9 +12,9 @@ The board is intended to provide functionality well beyond classic PocketBeagle,
 [cols="30%,30%,40%",options="header"]
 |===
 |Feature |PocketBeagle 2 |PocketBeagle original
-|SoC |AM6254 |AM3358
+|SoC |AM6232 |AM3358
 |Arm CPU |Cortex-A53 (64-bit) |Cortex-A8 (32-bit)
-|Arm cores |4 x 1.4GHz |1 x 1GHz
+|Arm cores |2 x 1GHz |1 x 1GHz
 |RAM |512MB DDR4 |512MB DDR3
 |===
 
@@ -28,7 +28,7 @@ This section covers the specifications and features of the board and provides a 
 [cols="16%,84%",options="header"]
 |===
 | |Feature
-|*Processor* |https://www.ti.com/product/AM625[Texas Instruments AM6254]
+|*Processor* |https://www.ti.com/product/AM623[Texas Instruments AM6232]
 |*SDRAM Memory* |512MB DDR4 (Kingston D2516AN9EXGXN-TU)
 |*PMIC* |TPS6521903
 |*Debug Support* |3 pin 3.3V JST-SH 1.00mm UART debug port (RPI debug probe compatible) +
@@ -56,7 +56,7 @@ image::components/front.jpg[PocketBeagle 2 board front components location,1240,
 [cols="28%,72%",options="header"]
 |===
 |Feature |Description
-|AM6254 SoC |Human-machine-interaction SoC with quad core A53 @ 1.4GHz
+|AM6232 SoC |Human-machine-interaction SoC with quad core A53 @ 1.4GHz
 |MSPM0 MCU |MSPM0 MCU to provide ADC and EEPROM functionality
 |U, P and C LEDs |USR1 - USR4 (U) user LEDs, Power (P) & Charging (C) LED indicator
 |USB C |Power and connectivity.
@@ -64,7 +64,7 @@ image::components/front.jpg[PocketBeagle 2 board front components location,1240,
 |Power button |Hold down to toggle ON/OFF
 |TPS6521903 |Power Management Integrated Circuit (PMIC)
 |512MB RAM |512MB DDR4 RAM
-|JTAG debug port |Tag-Connect JTAG (AM6254) debug port
+|JTAG debug port |Tag-Connect JTAG (AM6232) debug port
 |===
 
 === Back components location
@@ -80,9 +80,8 @@ image::components/back.jpg[PocketBeagle 2 board back components location,1240,al
 |UART debug ports |3pin JST-SH 1.00mm UART debug port (RPI debug probe compatible)
 |===
 
-== Revision Note
-
-PB2 revisions are as follows:
-
-* A1(Current/In-production) w/ AM6254 SOC.
-* A0(Out-of-production) w/ AM6232 SOC.
+[IMPORTANT]
+.Revision Note
+====
+A0 is Out-of-production w/ AM6232 SOC.
+====

@@ -2,7 +2,7 @@
 
 In this chapter, we delve into the intricate design and detailed specifications of PocketBeagle 2, offering a thorough understanding of its hardware architecture. We begin with a high-level overview, presenting block diagrams that illustrate the main components and their interconnections, including the System on Chip (SoC), power management, memory, connectivity interfaces, and peripheral components. These diagrams provide a visual representation of the I2C tree, power distribution, and boot configurations, essential for grasping the board's functionality.
 
-The chapter then focuses on the heart of PocketBeagle 2, the AM6254 SoC. We explore its internal architecture, highlighting the quad ARM Cortex-A53 cores, Cortex-M4F core, and various integrated peripherals. Detailed figures illustrate the SoC's functional blocks, decoupling capacitors, DDR controller, and power management, emphasizing the importance of each component in ensuring efficient and reliable operation.
+The chapter then focuses on the heart of PocketBeagle 2, the AM6232 SoC. We explore its internal architecture, highlighting the dual ARM Cortex-A53 cores, Cortex-M4F core, and various integrated peripherals. Detailed figures illustrate the SoC's functional blocks, decoupling capacitors, DDR controller, and power management, emphasizing the importance of each component in ensuring efficient and reliable operation.
 
 Connectivity and expansion options are also covered extensively. We discuss the USB connections, cape headers, and the MicroSD card slot, which enhance the board's versatility and usability. Additionally, we provide insights into the debug ports, including the serial debug port and JTAG connections, which are crucial for development and troubleshooting.
 
@@ -14,7 +14,7 @@ Finally, we present the mechanical specifications of PocketBeagle 2, including i
 
 The figure below provides a high-level overview of PocketBeagle 2 hardware architecture, illustrating the main components and their interconnections. This includes the System on Chip (SoC), power management, memory, connectivity interfaces, and other peripheral components.
 
-* *System on Chip (SoC)*: At the core of PocketBeagle 2 is the AM6254 SoC, which integrates quad ARM Cortex-A53 cores, a Cortex-M4F core, and various peripherals. This SoC is optimized for power efficiency and performance, making it suitable for a wide range of embedded applications.
+* *System on Chip (SoC)*: At the core of PocketBeagle 2 is the AM6232 SoC, which integrates dual ARM Cortex-A53 cores, a Cortex-M4F core, and various peripherals. This SoC is optimized for power efficiency and performance, making it suitable for a wide range of embedded applications.
 
 * *Power Management*: The diagram highlights several power management ICs:
 ** *TPS6521903 PMIC*: Manages multiple power rails, including buck converters and LDOs, to supply necessary voltages.
@@ -88,7 +88,7 @@ image::hardware-design/power-tree.png[Power tree,width=900]
 
 == System on Chip (SoC)
 
-PocketBeagle 2 is powered by the AM6254 SoC, which is a high-performance, low-power processor designed for embedded applications. The AM6254 integrates quad ARM Cortex-A53 cores, a Cortex-M4F core, and various peripherals to support a wide range of functionalities. It is optimized for power efficiency and performance, making it suitable for applications requiring robust processing capabilities while maintaining low power consumption. The AM6254 SoC functional block diagram below provides a detailed view of the internal architecture of the System on Chip. It highlights the various functional blocks such as the CPU cores, memory controllers, peripheral interfaces, and other integrated components. This diagram is essential for understanding how the SoC manages data flow and interacts with other hardware components on PocketBeagle 2 board.
+PocketBeagle 2 is powered by the AM6232 SoC, which is a high-performance, low-power processor designed for embedded applications. The AM6232 integrates dual ARM Cortex-A53 cores, a Cortex-M4F core, and various peripherals to support a wide range of functionalities. It is optimized for power efficiency and performance, making it suitable for applications requiring robust processing capabilities while maintaining low power consumption. The AM6232 SoC functional block diagram below provides a detailed view of the internal architecture of the System on Chip. It highlights the various functional blocks such as the CPU cores, memory controllers, peripheral interfaces, and other integrated components. This diagram is essential for understanding how the SoC manages data flow and interacts with other hardware components on PocketBeagle 2 board.
 
 .SoC functional block diagram
 image::hardware-design/soc-functional-block-diagram.png[SoC functional block diagram]
