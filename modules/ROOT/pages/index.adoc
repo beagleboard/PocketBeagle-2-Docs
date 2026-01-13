@@ -1,3 +1,28 @@
-= PocketBeagle 2
+= Overview
 
-Hello World
+PocketBeagle 2 is an upgraded version of the widely popular PocketBeagle, designed as an ultra-compact, low-cost, and powerful single-board computer (SBC). Targeted at developers, students, and hobbyists, PocketBeagle 2 retains the simplicity and flexibility of its predecessor while delivering enhanced performance and expanded features to support modern development needs. PocketBeagle 2 is ideal for creating IoT devices, robotics projects, and educational applications. Its small form factor and low power consumption make it a versatile platform for embedded development, whether prototyping or deploying at scale.
+
+image::hero.jpg[PocketBeagle 2,740,align="center"]
+
+== Documentation Sections
+
+[cols="1,3"]
+|===
+| xref:01-introduction.adoc[1. Introduction]
+| Introduction to PocketBeagle 2 board with information on each component location on both front and back of the board.
+
+| xref:02-quick-start.adoc[2. Quick start]
+| Getting started guide to enable you to start building your projects in no time.
+
+| xref:03-design-and-specifications.adoc[3. Design & Specifications]
+| Hardware and mechanical design and specifications of PocketBeagle 2 board for those who want to know their board inside and out.
+
+| xref:04-expansion.adoc[4. Expansion]
+| Connector pinout diagrams with expansion details so that you can easily debug your connections and create custom expansion hardware.
+
+| xref:05-demos-and-tutorials.adoc[5. Demos]
+| Demos and tutorials to quickly learn about PocketBeagle 2 capabilities.
+
+| xref:06-support.adoc[6. Support]
+| Additional supporting information, images, documents, change history and hardware & software repositories including issue trackers.
+|===
