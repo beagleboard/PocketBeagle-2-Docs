@@ -1,0 +1,5 @@
+name: pocketbeagle-2
+version: true
+title: PocketBeagle 2
+nav:
+- modules/ROOT/nav.adoc
