@@ -10,3 +10,4 @@ asciidoc:
       Tiny board with quad A53 cores, M4, PRUs and lots of I/O. Higher performance than original PocketBeagle
       with pre-soldered headers, UART debug port, high-speed USB-C port, MSPM0L1105, 512MB RAM, and LiPo Battery
       charger.
+    oshw: US002717
