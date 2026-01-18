@@ -6,12 +6,12 @@
 
 PocketBeagle 2 `+P1+` & `+P2+` cape headers are designed to be compatible with PocketBeagle classic as much as possible. Below pinout diagrams are design to simplify cape header pin usage and cape design process for PB2. To start using P1 / P2 cape header choose respective pinout diagram tab below.
 
-P1 cape header
+==== P1 cape header
 
 .PocketBeagle 2 P1 Cape Header Pinout
 image::pinout/PocketBeagle-2-P1.svg[]
 
-P2 cape header
+==== P2 cape header
 
 .PocketBeagle 2 P2 Cape Header Pinout
 image::pinout/PocketBeagle-2-P2.svg[]
