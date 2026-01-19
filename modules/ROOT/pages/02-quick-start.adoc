@@ -1,12 +1,12 @@
 [[pocketbeagle-2-quick-start]]
-== Quick Start Guide
+= Quick Start Guide
 
 This section provides instructions on how to hook up your board. This Beagle requires a 5V @ 1A (5W) power supply to work properly via either USB Type-C power adapter or via cape header pins.
 
 Recommended adapters can be found at `+accessories-power-supplies+` section.
 
 [[pocketbeagle-2-whats-in-the-box]]
-=== What’s In the Box
+== What’s In the Box
 
 In the box you will find two main items,
 
@@ -25,7 +25,7 @@ For board files, 3D model, and more, you can checkout https://openbeagle.org/poc
 
 Add picture of PocketBeagle 2 box content
 
-=== Creating bootable microSD card
+== Creating bootable microSD card
 
 To get started with creating a bootable microSD card, you need folloiwing items,
 
@@ -69,7 +69,7 @@ image::distro/bb-imager-flashing-done.png[]
 Your microSD card is now ready to boot PocketBeagle 2.
 
 [[pocketbeagle-2-main-connection-scenarios]]
-=== Main Connection Scenarios
+== Main Connection Scenarios
 
 This section describes how to connect and power the board and serves as a slightly more detailed description of the quick start guide included in the box. The board can be configured in several different ways, but we will discuss the two most common scenarios.
 
@@ -78,14 +78,14 @@ This section describes how to connect and power the board and serves as a slight
 . With https://www.beagleboard.org/boards/techlab[TechLab Cape] or https://www.beagleboard.org/boards/pocketbeagle-gamepup-cape[GamePup Cape] for sensors, USB host, LEDs and Buttons.
 
 [[pocketbeagle-2-tethered-scenario]]
-==== Tethered Connection
+=== Tethered Connection
 
 In this scenario, the board is directly connected to a PC via USB-C port. This is the simplest way to get started with the board. Optionally you can connect rpi debug probe to 3-pin JST-SH connector to see boot log, board console access and for general debugging.
 
 .Tethered Connection
 image::connection-diagrams/tethered-connection.jpg[]
 
-===== USB connection
+==== USB connection
 
 [arabic]
 . Connect the USB-C cable to the PocketBeagle 2 and the other end to the PC.
@@ -217,7 +217,7 @@ MacOS
 
 Add steps to share internet connection on MacOS
 
-===== UART serial debug connection
+==== UART serial debug connection
 
 [arabic]
 . Connect the rpi debug probe to the 3-pin JST-SH connector on the board.
@@ -229,7 +229,7 @@ Add steps to share internet connection on MacOS
 image::misc/serial-debug.png[]
 
 [[pocketbeagle-2-cape-scenario]]
-==== Cape Connection
+=== Cape Connection
 
 In this scenario, the board is connected to a cape like https://www.beagleboard.org/boards/techlab[TechLab Cape] or https://www.beagleboard.org/boards/pocketbeagle-gamepup-cape[GamePup Cape]. This is the most common way to use the board for sensor interfacing, USB host, LEDs and Buttons.
 
