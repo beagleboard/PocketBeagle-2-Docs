@@ -1,0 +1,7 @@
+asciidoc:
+  attributes:
+    toc: ''
+    sectnums: true
+
+assembly:
+  section_merge_strategy: enclose
