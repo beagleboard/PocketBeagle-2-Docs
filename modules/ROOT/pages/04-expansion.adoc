@@ -18,7 +18,7 @@ image::pinout/PocketBeagle-2-P2.svg[]
 
 Beagle cape expansion interface on PocketBeagle 2 like other Beagles is comprised of two headers P1 & P2. All signals on the expansion headers are *3.3V* unless otherwise indicated. *On some of the cape header pins on PocketBeagle 2 multiple SoC pins are shorted and only one of them should be used at a time.* Information regarding the double/shorted pins is provided in the `+pocketbeagle-2-pinout-diagrams+` above (simplified) and cape header pin tables below (detailed).
 
-[DANGER]
+[CAUTION]
 ====
 Do not connect 5V logic level signals to these pins or the board will be damaged.
 

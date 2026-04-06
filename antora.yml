@@ -1,6 +1,6 @@
 name: pocketbeagle-2
 version: true
-title: PocketBeagle® 2
+title: 'PocketBeagle® 2: Next-gen pocket-size single-board computer!'
 nav:
 - modules/ROOT/nav.adoc
 
@@ -11,3 +11,4 @@ asciidoc:
       with pre-soldered headers, UART debug port, high-speed USB-C port, MSPM0L1105, 512MB RAM, and LiPo Battery
       charger.
     oshw: US002717
+    title-logo-image: image::logo.jpg[]

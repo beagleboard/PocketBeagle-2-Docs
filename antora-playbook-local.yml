@@ -2,7 +2,7 @@
 # Going to just a component in mult-repo docsite in the future.
 
 site:
-  title: Test Site
+  title: PocketBeagle 2
   start_page: pocketbeagle-2::index.adoc
 
 content:
